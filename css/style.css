@@ -1,0 +1,67 @@
+.wrapper{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.text1{
+
+    display: flex;
+    text-align: center;
+    font-size: 23px;
+    color: white;
+
+}
+
+.photo{
+
+    display: flex;
+    align-items: stretch;
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;   
+    overflow: hidden;
+    border: 3px solid white;
+}
+
+.text2{
+
+    display: flex;
+    text-align: center;
+    font-size: 23px;
+    color: white;
+    text-shadow: 1px 1px 2px black;
+
+}
+
+.icons{
+
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+
+.img-icon1{
+
+    padding: 5px;
+
+}
+
+.img-icon1 img{
+
+    height: 5rem;
+    border-radius: 50%;
+    overflow: hidden;
+    
+    
+}
+
+.img-icon2 img{
+
+    height: 5rem;
+    border-radius: 50%;
+    overflow: hidden;
+}
